@@ -13,10 +13,10 @@ jobs:
       - run: docker build -t 77z77/docker-react . 
 
  
-      - run: docker build -t 77z77/multi-client-10-14 ./client
-      - run: docker build -t 77z77/multi-nginx-10-14 ./nginx
-      - run: docker build -t 77z77/multi-server-10-14 ./server
-      - run: docker build -t 77z77/multi-worker-10-14 ./worker
+      - run: docker build -t 77z77/multi-client-10-14 .
+      - run: docker build -t 77z77/multi-nginx-10-14 .
+      - run: docker build -t 77z77/multi-server-10-14 .
+      - run: docker build -t 77z77/multi-worker-10-14 .
  
       - run: docker push 77z77/multi-client-10-14
       - run: docker push 77z77/multi-nginx-10-14
